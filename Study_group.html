@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<title>IEEE/RAS HRI Metrics Study Group</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-theme-l1">Home</a>
+    <a href="index.html#sched" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Schedule</a>
+    <a href="index.html#cfp" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Submissions</a>
+
+    <a href="Organizers.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Organizers</a>
+    <div class="w3-dropdown-hover">
+      <button class="w3-button">More <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="Prev_years/2020/Prev_yr_2020.html" class="w3-bar-item w3-button">HRI 2020</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Menu</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" href="index.html#cfp">Call for Participation</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="index.html#sched">Schedule</a>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal" id = "intro">IEEE/RAS HRI Metrics Study Group</h1>
+          <p> Research into human-robot interaction (HRI) has yielded innumerable advances in industrial, rehabilitative, medical, response, consumer, and service robot technologies.  Studies in software, hardware, and human psychology, physiology, and culture enable the evolution of robots that are more effective teammates, tutors, customer support, and companions.  However, it is not clear how many of these advancements have directly benefited from the research versus blind luck.  The multiple fields of HRI are disjointed in terms of consistent metrics and mechanisms for technology assessment, verification, and validation.  Paired with the constant tendency to rely on ad hoc measurements and custom equipment, HRI research repeatability and reproducibility is practically nonexistent.</p>
+
+         <p> This standards study group seeks to identify candidate key performance indicators of human-robot interaction (HRI) effectiveness, and to recommend the formation of working groups that may focus on developing the metrics and test methods by which HRI performance may be assessed.  Key proposed outputs include a roadmap toward HRI standards and a prioritized list of candidate standards topics for future working groups.  These standards will address multiple facets of the field of HRI research, including:
+      <ul>
+       <li>Communications</li>
+       <li>Effective teaming</li>
+       <li> Human factors</li>
+       <li>Situation and social awareness</li>
+      <li>Ease-of-use</li>
+      <li>Interface performance</li>
+      <li>Terminologies and taxonomies</li>
+      <li>Presence and embodiment</li>
+      <li>Safety</li>
+    	 
+	 </ul>
+   <p> Website: <a href="https://www.ieee-ras.org/industry-government/standards/active-projects/metrology-for-human-robot-interaction" style="color:#008080;">Study Group on Metrology for Human-Robot Interaction</a>
+   <p>
+    <img src="Ggroup.png" alt="Google group logo" width="40" height="40">
+    <a href="https://groups.google.com/g/ieee-hri-metrics" style="color:#008080;">Join study group mailing list for more information</a>
+   </p>
+   <p>
+    <img src="slack_logo.png" alt="Slack logo" width="25" height="25">
+    <a href = "https://join.slack.com/t/hri-standards/shared_invite/zt-lahtm6zb-AkkvTCyG_~CP5nQm3fgvDw" style="color:#008080;">Join Slack</a></p>
+   <!--
+   <a href = "https://gcc02.safelinks.protection.outlook.com/?url=https:%2F%2Fjoin.slack.com%2Ft%2Fhri-standards%2Fshared_invite%2Fzt-ihfrq8br-mhpX8H4~aWlytg158QR5WA&data=04%7C01%7Cxiang.n.li%40nist.gov%7C2b21f061180d463b975b08d87c933600%7C2ab5d82fd8fa4797a93e054655c61dec%7C1%7C0%7C637396319004334104%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=us0u4SaMqgaFYD1ocOt7imRlS2fYTVO%2BfsDqppu43J8%3D&reserved=0">Join Slack</a>
+ -->
+
+	</p>
+    </div>
+    <div class="w3-third w3-container">
+      <!--<p class="w3-border w3-padding-large w3-padding-32 w3-center">IMG</p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">IMG</p>-->
+    </div>
+  </div>
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h2 class="w3-text-teal"></h2>
+      <p><!-- Empty space to push footer down -->
+	  <br> <br> <br> <br> <br> <br> <br>
+	  </p>
+    </div>
+    <div class="w3-third w3-container">
+      <!--<p class="w3-border w3-padding-large w3-padding-32 w3-center">IMG</p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">IMG</p>-->
+    </div>
+  </div>
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+	<h2 class="w3-text-teal"></h2>
+	  <p> <!-- Empty space to push footer down -->
+	  <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+	  </p>
+
+    </div>
+    <div class="w3-third w3-container">
+      <!--<p class="w3-border w3-padding-large w3-padding-32 w3-center">IMG</p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">IMG</p>-->
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <!-- <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a class="w3-button w3-black" href="#">1</a>
+      <a class="w3-button w3-hover-black" href="#">2</a>
+      <a class="w3-button w3-hover-black" href="#">3</a>
+      <a class="w3-button w3-hover-black" href="#">4</a>
+      <a class="w3-button w3-hover-black" href="#">5</a>
+      <a class="w3-button w3-hover-black" href="#">»</a>
+    </div>
+  </div> -->
+
+  <footer id="myFooter">
+
+	<div class="w3-container w3-theme-l2 w3-padding-32">
+      <h4> </h4>
+    </div>
+
+
+    <div class="w3-container w3-theme-l1">
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+  </footer>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>

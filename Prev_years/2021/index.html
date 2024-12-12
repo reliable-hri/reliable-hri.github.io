@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>2021 HRI Workshop on Novel and Emerging Test Methods and Metrics for Effective HRI</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+</style>
+<body>
+
+<!-- Navbar -->
+
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="#intro" class="w3-bar-item w3-button w3-theme-l1">Home</a>
+    <a href="#topics" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Topics</a>
+    <a href="#sched" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Schedule</a>
+    <a href="#cfp" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Submissions</a>
+    <a href="Study_group.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">IEEE/RAS HRI Metrics Study Group</a>
+    <a href="Organizers.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Organizers</a>
+
+    <div class="w3-dropdown-hover">
+      <button class="w3-button">More <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="Prev_years/2020/Prev_yr_2020.html" class="w3-bar-item w3-button">HRI 2020</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Menu</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#cfp">Call for Participation</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#sched">Schedule</a>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal" id="intro">HRI 2021 Workshop on Novel and Emerging Test Methods and Metrics for Effective HRI</h1>
+      <p><b> HRI 2021 and all workshops will be held virtually this year.  This full-day workshop was held virtually on 12 March, 2021.  Below is the schedule for the workshop.</b></p>
+      <p><b> <a href="https://youtube.com/playlist?list=PLHhCdb5VIvr2xTQAAfXH-ObxuiE8YcPw-">Please click here to view the workshop recording!</a> </b></p>
+
+	  <p><table> <tr><th><b>Tentative schedule (all times EST, GMT-5)</b></th></tr>
+	  <tr><td> 12:00 - Opening statements</td></tr>
+	  <tr><td> 12:15 - Invited talk, Andra Keay</td></tr>
+	  <tr><td> 13:00 - Short break</td></tr>
+	  <tr><td> 13:15 - Breakout rooms/Sessions</td></tr>
+	  <tr><td> 14:00 - Contributing Author - Conor McGinn  (<a href="https://hri-methods-metrics.github.io/abstract_2021/HRI_2021_Workshop_HRI_Metrics(3).pdf">abstract</a>) </td></tr>
+	  <tr><td> 14:10 - Contributing Author - Camille Peres (<a href="https://hri-methods-metrics.github.io/abstract_2021/Conducting HRI Research during Three Real World Disasters - Robin Murphy.pdf">abstract</a>)</td></tr>
+	  <tr><td> 14:20 - Contributing Author - Junxian Wang  (<a href="https://hri-methods-metrics.github.io/abstract_2021/Social_Conformity_Evaluation_of_Deep_Reinforcement_Learning_Crowd_Navigation_Algorithms - Junxian Wang.pdf">abstract</a>)</td></tr>
+	  <tr><td> 14:30 - Long break </td></tr>
+	  <tr><td> 15:00 - Keynote, Christoph Bartneck (<b><a href="https://www.youtube.com/watch?v=sFCg2Lg0Zt8&ab_channel=ISDCollabLab">recording</a></b>) </td></tr>
+	  <tr><td> 16:00 - Short break</td></tr>
+	  <tr><td> 16:15 - Open discussion & IEEE SG presentation</td></tr>
+	  <tr><td> 17:00 - Adjourn</td></tr>
+	  </table>
+
+	  <p>Despite large advances in robot interfaces and user-centric robot designs, the need for effective HRI continues to present challenges for the field of robotics.  As new technologies are integrated into human-robot teams in a myriad of application domains ranging from smart manufacturing to home automation to space exploration, exposures to, and expectations from, robots are growing rapidly.  A key barrier to achieving effective human-robot teaming in a multitude of domains is that there are few consistent test methods and metrics for assessing HRI effectiveness.  The necessity for validated metrology is driven by the desire for repeatable and consistent evaluations of HRI methodologies.  Such evaluations are critical for advancing the underlying theory of HRI, as well as establishing traceable mechanisms for vendors and consumers of HRI technologies to assess and assure functionality. </p>
+	  <p>This workshop will address the issues surrounding the development of novel and innovative test methods and metrics for evaluating HRI performance across the multitude of application domains, including medical, field, manufacturing, and social robotics. This workshop is driven by the need for pushing the boundaries of testing and evaluating HRI, and to establish benchmarks and standards for advancing the state of the art of HRI performance.  A key focus is on inter-disciplinary collaboration and multi-domain applicability of test methods and metrics.  Specific goals include the following:</p>
+	  <ul>
+	  <li> to develop and encourage the use of consistent test methods and metrics in evaluating HRI technologies, producing quality data sets of pragmatic applications, and validating human subject studies for HRI;</li>
+	  <li> to explore novel and emerging metrology tools that have broad applicability across HRI domains;</li>
+	  <li> to support a discussion about best practices in metrology and what features should be measured as the underlying theory of HRI advances; </li>
+	  <li> to encourage the creation and sharing of high-quality, consistently-formatted datasets for HRI research; and</li>
+	  <li> to promote the development of reproducible, metrics-oriented studies that seek to understand and model the human element of HRI teams.</li>
+	  </ul>
+	  </p>
+	  <h3 class="w3-text-teal"> Important Dates </h3>
+	  <p><ul>
+	  <li>5 March 2021:  Second submission deadline for extended abstracts </li>
+	  <li>8 March 2021:  Notification of acceptance for workshop presentations </li>
+	  <li><b>12 March 2021:  Full-day Workshop to take place virtually</b></li>
+	  </ul></p>
+    </div>
+
+    <div class="w3-third w3-container">
+      <!--<p class="w3-border w3-padding-large w3-padding-32 w3-center">IMG</p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">IMG</p>-->
+    </div>
+    </div>
+    <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <h2 class="w3-text-teal" id="topics">Discussion Topics</h2>
+      <p>Presentations by contributing authors will focus on the documentation of the test methods, metrics, and data sets used in their respective studies.  Keynote and invited speakers will be selected from a targeted list of HRI researchers across a broad spectrum of application domains.  Lightning talk participants will be selected from contributors reporting late-breaking evaluations and their preliminary results based on extended abstract submissions.</p>
+    <p>Discussions are intended to highlight the various approaches, requirements, and opportunities of the research community toward assessing HRI performance, enabling advances in HRI research, and establishing trust in HRI technologies.  Specific topics of discussion will include:
+    <ul>
+    <li>reproducible and repeatable studies with quantifiable test methods and metrics;</li>
+    <li>human-robot collaboration and teaming test methods;</li>
+    <li>human data set content transferability, and traceability;</li>
+    <li>HRI metrics (e.g., situation and cultural awareness);</li>
+    <li>industry-specific metrology requirements.</li>
+    </ul>
+    </p>
+    <p> Finally, this workshop is the third in a series of workshops leading toward formalized HRI performance standards.  The IEEE Robotics and Automation Society (RAS) <a href="https://www.ieee-ras.org/industry-government/standards/active-projects/metrology-for-human-robot-interaction" style="color:#008080;">is hosting and supporting this standardization effort</a>.  Early workshops are intended to target community and consensus building, and on the establishment of a culture of repeatable and reproducible, metrology-based research in HRI.  A fourth workshop is planned for the 2021 ACM/IEEE International Conference on Human Robot Interaction, and will specifically address the action items identified in this year's workshop.  A workshop report documenting the presentations, discussions, and ensuing take-away and action items will be produced, and made publicly available.</p>
+    </div>
+
+    <div class="w3-third w3-container">
+        <!--<p class="w3-border w3-padding-large w3-padding-32 w3-center">IMG</p>
+        <p class="w3-border w3-padding-large w3-padding-64 w3-center">IMG</p>-->
+      </div>
+    </div>
+
+   <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h2 class="w3-text-teal" id="sched">Schedule</h2>
+    <table>
+    <tr><th> <b>Confirmed Speakers (Schedule TBD):  </b></th></tr>
+    <tr><td> <a href="https://www.bartneck.de/">Dr. Christoph Bartneck</a> (University of Canterbury, HIT Lab NZ) - Keynote </td></tr>
+    <tr><td> <a href="https://su.org/about/faculty/andra-keay/#:~:text=About%20Andra,the%20global%20robotics%20investment%20activity.">Andra Keay </a> (Managing Director and Founder of Silicon Valley Robotics, Visiting Scholar with CITRIS People and Robots) - Keynote </td></tr>
+    </table>
+  </div>
+    </div>
+
+
+    <div class="w3-row">
+      <div class="w3-twothird w3-container">
+        <h2 class="w3-text-teal" id="cfp">Accepted Submissions</h2>
+    <p>Extended abstracts (up to 1p), detailing in-progress work outlining details of novel metrics and test methods for real-world HRI will be accepted for the workshop</p>
+    <p><h5><a href="https://forms.gle/vTS6WMZoBF3HPUR69" style="color:#008080;">Click here</a> or visit <a href="https://forms.gle/vTS6WMZoBF3HPUR69" style="color:#008080;">https://forms.gle/vTS6WMZoBF3HPUR69</a> to submit to the workshop.</h5></p>
+    </div>
+    <div class="w3-third w3-container">
+      <!--<p class="w3-border w3-padding-large w3-padding-32 w3-center">IMG</p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">IMG</p>-->
+    </div>
+  </div>
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Organizers</h1>
+     <p><ul>
+	 <li><h5> Dr. Jeremy A. Marvel, U.S. DOC, NIST - <a href="mailto:jeremy.marvel@nist.gov">jeremy.marvel@nist.gov</a></h5></li>
+	 <li><h5> Shelly Bagchi, U.S. DOC, NIST - <a href="mailto:shelly.bagchi@nist.gov">shelly.bagchi@nist.gov</a></h5></li>
+	 <li><h5> Megan Zimmerman, U.S. DOC, NIST - <a href="mailto:megan.zimmerman@nist.gov">megan.zimmerman@nist.gov</a></h5></li>
+	 <li><h5> Murat Aksu, U.S. DOC, NIST - <a href="mailto:murat.aksu@nist.gov">murat.aksu@nist.gov</a></h5></li>
+	 <li><h5> Brian Antonishek, U.S. DOC, NIST - <a href="mailto:brian.antonishek@nist.gov">brian.antonishek@nist.gov</a></h5></li>
+   <li><h5> Xiang Li, U.S. DOC, NIST - <a href="mailto:xiang.n.li@nist.gov">xiang.n.li@nist.gov</a></h5></li>
+
+	 <li><h5> Dr. Yue Wang, Clemson University - <a href="mailto:yue6@clemson.edu">yue6@clemson.edu</a></h5></li>
+	 <li><h5> Dr. Ross Mead, Semio.ai, Inc. - <a href="mailto:ross@semio.ai">ross@semio.ai</a></h5></li>
+	 <li><h5> Dr. Terry Fong, NASA Ames Research Center - <a href="mailto:terry.fong@nasa.gov">terry.fong@nasa.gov</a></h5></li>
+	 <li><h5> Dr. Heni Ben Amor, Arizona State University - <a href="mailto:hbenamor@asu.edu">hbenamor@asu.edu</a></h5></li>
+	 </ul>
+
+	</p>
+    </div>
+    <div class="w3-third w3-container">
+      <!--<p class="w3-border w3-padding-large w3-padding-32 w3-center">IMG</p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">IMG</p>-->
+    </div>
+  </div>
+
+
+  <!-- Pagination -->
+  <!-- <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a class="w3-button w3-black" href="#">1</a>
+      <a class="w3-button w3-hover-black" href="#">2</a>
+      <a class="w3-button w3-hover-black" href="#">3</a>
+      <a class="w3-button w3-hover-black" href="#">4</a>
+      <a class="w3-button w3-hover-black" href="#">5</a>
+      <a class="w3-button w3-hover-black" href="#">»</a>
+    </div>
+  </div> -->
+
+  <footer id="myFooter">
+
+	<div class="w3-container w3-theme-l2 w3-padding-32">
+      <h4></h4>
+    </div>
+
+
+    <div class="w3-container w3-theme-l1">
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+  </footer>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>
